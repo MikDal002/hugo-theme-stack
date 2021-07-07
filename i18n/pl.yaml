@@ -59,7 +59,7 @@ search:
 
 footer:
     builtWith:
-        other: Zbudowano z {{ .Generator }}
+        other: Zbudowano za pomocą {{ .Generator }}
 
     designedBy:
         other: Motyw {{ .Theme }} zaprojektowany przez {{ .DesignedBy }}
