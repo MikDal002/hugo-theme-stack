@@ -7,6 +7,7 @@ darkMode:
 list:
     page:
         one: "{{ .Count }} strona"
+        few: "{{ .Count }} strony"
         other: "{{ .Count }} stron"
 
     section:
@@ -31,6 +32,7 @@ article:
     
     readingTime:
         one: "Przeczytasz w {{ .Count }} minutę"
+        few: "Przeczytasz w {{ .Count }} minuty"
         other: "Przeczytasz w {{ .Count }} minut"
 
 notFound:
